@@ -99,7 +99,7 @@ p {
   display: grid;
   max-width: 700px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 130px;
   padding-inline: 20px;
 }
 
@@ -119,7 +119,7 @@ p {
   height: 50px;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .kasse_4,
