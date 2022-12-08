@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap");
 
 img {
   display: block;
@@ -62,12 +62,13 @@ h2 {
 
 h3 {
   font-family: "Rajdhani", sans-serif;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h4 {
   font-family: "Rajdhani", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 p {
@@ -86,7 +87,7 @@ p {
 }
 
 .hero {
-  height: 90vh;
+  height: 85vh;
   display: grid;
   place-items: center;
   align-items: center;
@@ -116,6 +117,10 @@ p {
   top: 47%;
 }
 
+.span_2 {
+  margin-inline: 20px;
+}
+
 span {
   color: #902b2b;
   padding-right: 7px;
@@ -131,14 +136,14 @@ span {
   margin-top: 100px;
 }
 
+.right_column p {
+  width: 250px;
+}
+
 hr {
   transform: rotate(90deg);
   width: 150px;
   color: #902b2b;
-}
-
-.right_column p {
-  width: 200px;
 }
 
 .heartbeat {
@@ -183,14 +188,6 @@ hr {
   animation: rotate-center 10s linear infinite both;
 }
 
-.see_more {
-  display: flex;
-  gap: 20px;
-  padding-block: 50px;
-  align-items: center;
-  justify-content: center;
-}
-
 .knap {
   border: #902b2b solid 3px;
   padding: 10px;
@@ -198,11 +195,41 @@ hr {
   background-color: none;
   font-family: "Rajdhani", sans-serif;
   font-size: 24px;
+  font-weight: 600;
   text-decoration: none;
+}
+
+.knap:hover {
+  background-color: #902b2b;
+  color: white;
 }
 
 .sektion {
   margin-block: 40px;
+}
+
+.see_more {
+  display: flex;
+  padding-block: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.left {
+  display: grid;
+  place-content: center;
+  border-bottom: solid 3px #902b2b;
+  border-right: solid 3px #902b2b;
+  height: 100px;
+  width: 200px;
+}
+
+.right {
+  display: grid;
+  place-content: center;
+  border-top: solid 3px #902b2b;
+  height: 100px;
+  width: 200px;
 }
 
 /*******************ANIMATION KEYFRAMES*************************/
