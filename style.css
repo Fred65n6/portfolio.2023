@@ -19,7 +19,10 @@ nav {
   padding-inline: 20px;
   padding-block: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  position: fixed;
+  right: 0;
 }
 
 ul {
@@ -42,11 +45,14 @@ li {
 .corner {
   font-family: quentin;
   font-size: 2rem;
+  left: 0;
+  padding-left: 20px;
+  position: fixed;
 }
 
 body {
-  background: url(https://grainy-gradients.vercel.app/noise.svg);
-  background-color: #fffbf1;
+  /* background: url(https://grainy-gradients.vercel.app/noise.svg); */
+  background-color: #f4f4f4;
 }
 
 h1 {
@@ -89,29 +95,36 @@ p {
   font-family: quentin;
   font-size: 3rem;
   font-weight: 100;
+  color: black;
 }
 
 .hero h2 {
   text-align: right;
+  color: black;
 }
 
 .hero {
   display: grid;
   max-width: 600px;
   margin: 0 auto;
-  padding-top: 150px;
+
   padding-inline: 20px;
   font-weight: 600;
   padding: 50px;
-  background: url(https://grainy-gradients.vercel.app/noise.svg);
-  background-color: #ffffff;
 }
 
 .placer {
-  background-image: url(./media/m!app.gif);
-  background-size: cover;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(64, 20, 20, 1) 51%,
+    rgba(120, 13, 84, 1) 100%
+  ); */
+  background-color: #f4f4f4;
+
   height: 100vh;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .grafik {
@@ -143,9 +156,9 @@ p {
 .side_header {
   transform: rotate(90deg);
   position: fixed;
-  left: -12%;
+  left: -11%;
   top: 47%;
-  color: white;
+  color: black;
 }
 
 .span_2 {
@@ -163,8 +176,7 @@ span {
   justify-content: center;
   place-items: center;
   align-items: center;
-  height: 300px;
-  margin-top: 100px;
+  height: 200px;
   /* box-shadow: 0px 8px 16px rgb(108, 108, 99); */
 }
 
