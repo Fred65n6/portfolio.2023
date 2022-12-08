@@ -15,6 +15,35 @@ img {
   height: auto;
 }
 
+nav {
+  padding-inline: 20px;
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  font-family: "Rajdhani", sans-serif;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.corner {
+  font-family: quentin;
+  font-size: 2rem;
+}
+
 body {
   background: url(https://grainy-gradients.vercel.app/noise.svg);
   background-color: #fffbf1;
@@ -22,13 +51,13 @@ body {
 
 h1 {
   font-family: quentin;
-  font-size: 73px;
+  font-size: 60px;
   font-weight: 100;
 }
 
 h2 {
   font-family: "Rajdhani", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h3 {
@@ -57,21 +86,19 @@ p {
 }
 
 .hero {
-  height: 100vh;
-  padding-top: 3rem;
+  height: 90vh;
   display: grid;
   place-items: center;
   align-items: center;
   max-width: 700px;
   margin: 0 auto;
-  gap: 30px;
 }
 
 .grafik {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 40px;
+  gap: 30px;
   max-width: 600px;
 }
 
