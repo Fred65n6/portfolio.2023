@@ -17,6 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -28,47 +34,24 @@
       <nav>
         <ul>
           <li><a href="#portfolio">PROJEKTER</a></li>
-          <li><a href="om_mig.html">OM MIG</a></li>
-          <li><a href="*">KONTAKT</a></li>
+          <li><a href="#om_mig">OM MIG</a></li>
+          <li><a href="#kontakt">KONTAKT</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="portfolio">
-        <div class="sektion">
-          <div class="funke"></div>
-          <!-- <img class="active" class="funke" src="./media/FunkeLogo.gif" alt="" /> -->
-          <!-- <div class="see_more">
-          <div class="left"><h3>FUNKE</h3></div>
-          <div class="right"><a class="knap" href="*">SEE MORE</a></div>
-        </div> -->
-        </div>
+        <div class="carousel">
+          <div class="citat">
+            <h2>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              assumenda labore explicabo voluptatibus, dolores dolor! "
+            </h2>
+          </div>
 
-        <div class="sektion">
           <div class="m"></div>
-          <!-- <div class="see_more">
-          <div class="left"><h3>M! APP</h3></div>
-          <div class="right"><a class="knap" href="*">SEE MORE</a></div>
-        </div> -->
-        </div>
 
-        <div class="sektion">
-          <div class="nb">
-            <img class="blomst" src="./media/blomst.svg" alt="" />
-          </div>
-          <!-- <div class="see_more">
-          <div class="left">
-            <h3>
-              Nørrebro <br />
-              Bryghus
-            </h3>
-          </div>
-          <div class="right"><a class="knap" href="*">SEE MORE</a></div>
-        </div> -->
-        </div>
-
-        <div class="sektion">
           <div class="grafik">
             <img class="kasse_1" src="./media/cirkel.png" alt="" />
             <img class="kasse_2" src="./media/rektangel.2.png" alt="" />
@@ -79,11 +62,39 @@
             <img class="kasse_7" src="./media/rektangel.2.png" alt="" />
             <img class="kasse_8" src="./media/cirkel.png" alt="" />
           </div>
+
+          <div class="funke"><img src="./media/FunkeLogo.gif" alt="" /></div>
+
+          <div class="nb" id="nb">
+            <img class="blomst" src="./media/blomst.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="om_mig">
+        <div class="about">
+          <div class="about_text">
+            <h2>OM MIG</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              nam quo sunt reiciendis dolorum, recusandae necessitatibus
+              commodi, non repudiandae id cupiditate voluptas magnam sed!
+              Similique mollitia consequatur vitae laudantium, temporibus itaque
+              officia perspiciatis non asperiores. Perferendis, mollitia fugiat!
+              Tempora, sequi natus neque totam sunt temporibus ipsum maiores
+              quam, autem, eveniet ipsa perspiciatis unde? Expedita quasi beatae
+              fuga, quaerat aspernatur incidunt quam esse blanditiis illum
+              tempora corporis perspiciatis ipsa nisi nostrum magni, ab neque
+              dolores laborum voluptatibus ipsum.
+            </p>
+          </div>
+          <hr />
+          <img src="./media/portræt.webp" alt="portræt" />
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer id="kontakt">
       <h2>
         DON'T BE A STRANGER
         <svg width="32" height="32" viewBox="0 0 24 24">
@@ -101,7 +112,6 @@
         I always appreciate being contacted.
       </p>
       <br /><br />
-      <h3>Have a nice day</h3>
       <div class="kontakt_knapper">
         <a class="knap" href="*"
           ><svg width="32" height="32" viewBox="0 0 24 24">
