@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap");
 
 @font-face {
   font-family: "quentin";
@@ -28,201 +28,147 @@ img {
 }
 
 body {
-  /*background: url(./media/noise.svg);*/
+  background: url(./media/noise.svg);
   background-color: #f4f4f4;
 }
 
 h1 {
-  font-family: "Rajdhani", sans-serif;
-  font-size: 4rem;
+  font-family: "Almarai", sans-serif;
+  font-size: 110px;
 }
 
 h2 {
-  font-family: "Rajdhani", sans-serif;
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-family: "Rajdhani", sans-serif;
+  font-family: Rajdhani, sans-serif;
   font-size: 32px;
 }
 
-h4 {
-  font-family: "Rajdhani", sans-serif;
+h3 {
+  font-family: Rajdhani, sans-serif;
   font-size: 24px;
-  font-weight: 300;
 }
 
 p {
-  font-size: 17px;
-  font-family: "sansation";
+  font-family: sansation, sans-serif;
+  line-height: 1.7;
 }
 
-.knap {
-  border: #902b2b solid 3px;
-  padding: 10px;
+span {
   color: #902b2b;
-  background-color: none;
-  font-family: "Rajdhani", sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  text-decoration: none;
+  font-size: 93px;
 }
 
-.knap:hover {
-  background-color: #902b2b;
+a {
+  font-family: Rajdhani, sans-serif;
+  font-size: 30px;
+  height: fit-content;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #902b2b;
+  color: #000000;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 360px 0 0 0 #902b2b;
   color: white;
 }
 
-nav {
-  display: flex;
-  place-content: center;
-  margin: 0 auto;
-  width: 100vw;
-}
-
 ul {
-  display: flex;
-  align-items: center;
-  padding-right: 45px;
-  gap: 40px;
+  display: grid;
+  gap: 35px;
+  padding-top: 15px;
 }
 
 li {
   list-style: none;
-  font-family: "Rajdhani", sans-serif;
-  color: black;
-  font-size: 1.3rem;
 }
 
-.center {
-  display: grid;
-  text-align: center;
-  font-family: "Kanit", sans-serif;
-  font-size: 2.5rem;
-  color: black;
-}
-
-.center p {
-  font-size: 15px;
-  font-weight: 400;
-  font-family: "Rajdhani", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.hero h1 {
-  font-family: quentin;
-  font-size: 3rem;
-  font-weight: 100;
-  color: black;
-}
-
-.hero h2 {
-  text-align: right;
-  color: black;
-}
-
-.hero {
-  display: grid;
-  max-width: 600px;
+header {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  place-content: center;
   margin: 0 auto;
-  padding-inline: 20px;
-  font-weight: 600;
-  padding: 50px;
 }
 
-.placer {
-  height: 100vh;
-  padding-top: 50px;
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  place-items: center;
+  padding-top: 75px;
+  max-width: 1300px;
+  gap: 50px;
+}
+
+.funke {
+  display: grid;
+  place-items: center;
+  background-image: url(./media/Group\ 34.png);
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 350px;
+}
+
+.funke:hover {
+  width: 600px;
+  height: 350px;
+  background-image: url(./media/FunkeLogo.gif);
 }
 
 .grafik {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 25px;
-  max-width: 700px;
+  gap: 20px;
 }
 
-.heartbeat {
-  display: grid;
-  margin: 0 auto;
-  background-image: url(./media/down_arrow.svg);
-  width: 50px;
-  height: 50px;
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-  animation: heartbeat 1.5s ease-in-out infinite both;
-  margin-top: 20px;
-}
-
+.kasse_3,
 .kasse_4,
 .kasse_7,
-.kasse_3,
 .kasse_8 {
   transform: rotate(180deg);
 }
 
-.side_header {
-  transform: rotate(90deg);
-  position: fixed;
-  left: -11%;
-  top: 50%;
-  color: black;
-}
-
-.span_2 {
-  margin-inline: 20px;
-}
-
-span {
-  color: #902b2b;
-}
-
-.breaker {
-  display: flex;
-  justify-content: center;
-  place-items: center;
-  align-items: center;
-  height: 150px;
-  /* box-shadow: 0px 8px 16px rgb(108, 108, 99); */
-}
-
-.right_column p {
-  width: 250px;
-}
-
-hr {
-  transform: rotate(90deg);
-  width: 150px;
-  color: #902b2b;
-}
-
-#portfolio {
-  display: grid;
-  place-items: center;
-  margin-top: 100px;
-}
-
-.funke {
-  background-image: url(./media/louis-hansel-cC0_UO1Obg4-unsplash-2.jpg);
-  background-size: cover;
-  width: 800px;
-  height: 500px;
+.static {
+  width: 400px;
+  height: auto;
 }
 
 .m {
-  width: 800px;
-  height: 500px;
+  width: 600px;
+  height: 350px;
+  background-size: cover;
+  background-image: url(./media/m!app.static.png);
+}
+
+.m:hover {
+  width: 600px;
+  height: 350px;
+  background-size: cover;
+  background-image: url(./media/m!app.gif);
 }
 
 .nb {
-  padding: 100px;
-  width: 800px;
-  height: 500px;
+  padding: 70px;
+  background-color: #902b2b;
+  display: grid;
+  place-items: center;
+  width: 600px;
+  height: 350px;
+}
+
+.nb:hover {
+  cursor: pointer;
+  width: 600px;
+  height: 350px;
+  padding: 00px;
   background-color: #902b2b;
   display: grid;
   place-items: center;
@@ -231,36 +177,62 @@ hr {
 .blomst {
   width: auto;
   height: 200px;
+}
+
+.blomst:hover {
   -webkit-animation: rotate-center 10s linear infinite both;
   animation: rotate-center 10s linear infinite both;
+  width: auto;
+  height: 200px;
 }
 
-.sektion {
-  margin-block: 40px;
+footer {
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
-.see_more {
+footer h2 {
   display: flex;
-  padding-block: 50px;
-  justify-content: center;
+  align-items: center;
+}
+
+footer p {
   text-align: center;
+  padding-block: 20px;
 }
 
-.left {
-  display: grid;
-  place-content: center;
-  border-bottom: solid 3px #902b2b;
-  border-right: solid 3px #902b2b;
-  height: 100px;
-  width: 200px;
+footer svg {
+  margin-left: 5px;
 }
 
-.right {
-  display: grid;
-  place-content: center;
-  border-top: solid 3px #902b2b;
-  height: 100px;
-  width: 200px;
+.kontakt_knapper {
+  display: flex;
+  gap: 40px;
+  padding-block: 50px;
+}
+
+.knap {
+  display: flex;
+  align-items: center;
+  color: #902b2b;
+  padding: 10px;
+  border: solid 3px #902b2b;
+  font-size: 20px;
+  font-weight: 600;
+  width: 270px;
+  height: 60px;
+  justify-content: center;
+}
+
+.knap svg {
+  fill: #902b2b;
+  padding-right: 5px;
+}
+
+.knap:hover svg {
+  fill: white;
 }
 
 /*******************ANIMATION KEYFRAMES*************************/
