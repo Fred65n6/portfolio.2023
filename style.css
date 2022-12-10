@@ -131,12 +131,10 @@ header {
 }
 
 .arrows {
-  width: 20px;
+  width: 45px;
   height: 45px;
   outline: none;
   border: none;
-  background-color: #5e4c5a;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,14 +147,13 @@ header {
 }
 
 .arrows:hover {
-  background-color: #5e4c5a;
   transform: scale(1.1);
 }
 
 .arrows svg {
   width: 1.5em;
   height: 1.5em;
-  fill: white;
+  fill: #902b2b;
 }
 
 .arrow-inactive {
@@ -313,6 +310,10 @@ input:checked + label #off {
   height: 350px;
   background-size: cover;
   background-image: url(./media/funke.drink.png);
+}
+
+.funke_gif {
+  width: 600px;
 }
 
 /***********m!***********/
