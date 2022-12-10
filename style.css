@@ -303,8 +303,8 @@ footer {
   display: grid;
   place-items: center;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 footer h2 {
