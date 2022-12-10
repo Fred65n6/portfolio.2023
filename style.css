@@ -23,13 +23,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* 
 img {
   display: block;
   width: 100%;
   height: auto;
-}
-
+} */
 body {
   background: url(./media/noise.svg);
   background-color: #f4f4f4;
@@ -105,7 +104,148 @@ header {
 }
 /******CAROUSEL**********/
 
-section {
+.carousel-wrapper {
+  margin: 0 auto;
+  display: flex;
+  padding-block: 50px;
+  justify-content: space-between;
+  gap: 0.5em;
+  width: 90%;
+}
+
+.wrapped-container {
+  display: flex;
+  overflow: hidden;
+  width: 95%;
+  justify-content: center;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  display: flex;
+  gap: 1em;
+  scrollbar-width: none;
+}
+
+.arrows {
+  width: 20px;
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #5e4c5a;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  padding: 0;
+  pointer-events: all;
+}
+
+.arrows:hover {
+  background-color: #5e4c5a;
+  transform: scale(1.1);
+}
+
+.arrows svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: white;
+}
+
+.arrow-inactive {
+  opacity: 0.5;
+  cursor: auto;
+  display: none;
+}
+
+.arrow-inactive:hover {
+  transform: none;
+}
+
+.carousel-item {
+  width: 600px;
+  height: 350px;
+}
+
+label {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  background: #5e4c5a;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #ef8354;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 20px;
+}
+
+input:checked + label #off {
+  display: none;
+}
+
+:not(input:checked) + label #on {
+  display: none;
+}
+
+.overflow {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.carousel-wrapper.scrollbar-overflow ::-webkit-scrollbar {
+  height: 6px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar {
+  height: 0px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-track {
+  background: #c0b6af;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb {
+  background: #5e4c5a;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb:hover {
+  background: #2d242b;
+}
+
+/* section {
   width: 100%;
 }
 
@@ -164,7 +304,7 @@ section {
 .pseudo-item {
   width: 50px;
   flex-shrink: 0;
-}
+} */
 
 /**********FUNKE************/
 
