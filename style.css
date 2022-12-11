@@ -445,6 +445,9 @@ footer svg {
 }
 
 @media (max-width: 1300px) {
+  body {
+    max-width: 100vw;
+  }
   h1 {
     font-size: 1.9rem;
   }
@@ -501,9 +504,9 @@ footer svg {
   }
 
   .carousel {
-    width: 100%;
+    width: 100vw;
     height: 450px;
-    gap: 5px;
+    gap: 0px;
   }
 
   #funke {
@@ -517,21 +520,21 @@ footer svg {
   .funke_gif {
     display: flex;
     justify-content: center;
-    max-width: 100vw;
+    max-width: 90vw;
     align-items: center;
     justify-content: center;
   }
 
   #m {
     height: 450px;
-    width: 100vw;
+    width: 90vw;
     background-position: center;
     background-size: cover;
   }
 
   #nb {
     height: 450px;
-    width: 100vw;
+    width: 90vw;
     display: grid;
     place-items: center;
   }
