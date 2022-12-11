@@ -24,7 +24,7 @@ html {
 
 body {
   background: url(./media/noise.svg);
-  background-color: #f4f4f4;
+  background-color: #f4f3f3;
   background-attachment: fixed;
   overflow-x: hidden;
 }
@@ -285,6 +285,18 @@ hr {
   padding-block: 100px;
   display: grid;
   place-items: center;
+}
+
+.icon_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+}
+
+.ikon_item {
+  text-align: center;
+  color: white;
 }
 
 .skills h2 {
