@@ -100,6 +100,10 @@ header {
 
   margin: 0 auto;
 }
+
+#mobile_nav {
+  display: none;
+}
 /******CAROUSEL**********/
 
 .carousel-wrapper {
@@ -445,6 +449,12 @@ footer svg {
 }
 
 @media (max-width: 1300px) {
+  /*************MOBILE_NAV********************/
+
+  /******************************************/
+  #mobile_nav {
+    display: block;
+  }
   body {
     max-width: 100vw;
   }
@@ -462,6 +472,10 @@ footer svg {
 
   p {
     font-size: 1rem;
+  }
+
+  #grafik {
+    display: none;
   }
 
   header span {
@@ -482,31 +496,10 @@ footer svg {
     display: none;
   }
 
-  #grafik {
-    display: none;
-  }
-
-  #mobil_grafik {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 10px;
-    padding-top: 20px;
-  }
-
-  .kasse_1,
-  .kasse_2,
-  .kasse_3,
-  .kasse_4 {
-    width: 75px;
-    height: auto;
-  }
-
   .carousel {
     width: 100vw;
     height: 450px;
-    gap: 0px;
+    gap: 10px;
   }
 
   #funke {
@@ -567,6 +560,10 @@ footer svg {
     padding-inline: 20px;
   }
 
+  .carousel {
+    gap: 0px;
+  }
+
   .about img {
     width: 90%;
   }
@@ -586,12 +583,13 @@ footer svg {
     max-width: 400px;
   }
 
-  .skills {
-    padding-inline: 20px;
+  .icon_container {
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .icon_container {
-    grid-template-columns: 1fr 1fr 1fr;
+  .ikon_item {
+    padding-block: 10px;
   }
 
   .kontakt_knapper {
