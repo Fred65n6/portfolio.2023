@@ -482,6 +482,7 @@ footer svg {
 
   footer p {
     font-size: 0.8rem;
+    padding-block: 10px;
   }
 
   #grafik {
