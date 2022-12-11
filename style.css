@@ -549,10 +549,6 @@ footer svg {
   .arrows svg {
     fill: #ffffff;
   }
-
-  #kontakt {
-    margin-inline: 20px;
-  }
 }
 
 @media (max-width: 1100px) {
