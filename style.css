@@ -22,6 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: url(./media/noise.svg);
   background-color: #f4f3f3;
@@ -196,7 +200,7 @@ header {
   width: 600px;
   height: 350px;
   background-size: cover;
-  background-image: url(./media/funke.drink.png);
+  background-image: url(./media/funke.drink.webp);
 }
 
 .funke_gif {
