@@ -342,6 +342,7 @@ footer h2 {
 footer p {
   text-align: center;
   padding-block: 20px;
+  margin-inline: 20px;
 }
 
 footer svg {
