@@ -549,6 +549,10 @@ footer svg {
   .arrows svg {
     fill: #ffffff;
   }
+
+  #kontakt {
+    margin-inline: 20px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -581,6 +585,10 @@ footer svg {
   .about_text {
     display: grid;
     max-width: 400px;
+  }
+
+  .skills_container {
+    text-align: center;
   }
 
   .icon_container {
