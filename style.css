@@ -589,7 +589,7 @@ footer svg {
 
   header {
     display: flex;
-    padding-top: 50px;
+    padding-top: 60px;
     max-width: 90%;
   }
 
@@ -606,6 +606,10 @@ footer svg {
     width: 100vw;
     height: 450px;
     gap: 10px;
+  }
+
+  .carousel-wrapper {
+    padding-block: 15px;
   }
 
   .portfolio_container:hover .carousel-item {
