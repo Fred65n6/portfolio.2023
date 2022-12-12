@@ -139,6 +139,7 @@ header {
 }
 
 .left-arrow {
+  background-color: #f3f3f300;
   border-radius: 50%;
   position: absolute;
   z-index: 100;
@@ -146,6 +147,7 @@ header {
 }
 
 .right-arrow {
+  background-color: #f3f3f300;
   border-radius: 50%;
   position: absolute;
   z-index: 100;
@@ -154,7 +156,7 @@ header {
 }
 
 .arrows svg {
-  fill: #b62020e6;
+  fill: #f3f3f3;
 }
 
 #mobil_grafik {
