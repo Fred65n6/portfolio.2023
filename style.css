@@ -103,6 +103,10 @@ header {
 #mobile_nav {
   display: none;
 }
+
+.mobil_grafik {
+  display: none;
+}
 /******CAROUSEL**********/
 
 .carousel-wrapper {
@@ -556,6 +560,7 @@ footer svg {
   }
 
   .mobil_grafik {
+    display: block;
     width: 50px;
   }
 
