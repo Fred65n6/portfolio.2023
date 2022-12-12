@@ -139,7 +139,6 @@ header {
 }
 
 .left-arrow {
-  background-color: #f4f4f483;
   border-radius: 50%;
   position: absolute;
   z-index: 100;
@@ -147,7 +146,6 @@ header {
 }
 
 .right-arrow {
-  background-color: #f4f4f483;
   border-radius: 50%;
   position: absolute;
   z-index: 100;
@@ -156,7 +154,7 @@ header {
 }
 
 .arrows svg {
-  fill: #902b2b;
+  fill: #b62020e6;
 }
 
 #mobil_grafik {
@@ -659,11 +657,6 @@ footer svg {
 
   .right-arrow,
   .left-arrow {
-    background-color: #f4f4f400;
-  }
-
-  .arrows svg {
-    fill: #ffffff;
   }
 }
 
