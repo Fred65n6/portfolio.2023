@@ -491,11 +491,6 @@ footer svg {
     padding-top: 30px;
   }
 
-  .icon_container {
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-
   #desktop_nav ul {
     padding-top: 20px;
     display: grid;
