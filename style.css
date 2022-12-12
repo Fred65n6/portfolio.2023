@@ -455,7 +455,7 @@ footer svg {
 @media (max-width: 1300px) {
   /******MOBILE NAV*************/
 
-  #menu {
+  /* #menu {
     z-index: 1000;
   }
 
@@ -550,7 +550,7 @@ footer svg {
     width: 520px;
     height: 460px;
     transform: translate(60%, -30%);
-  }
+  } */
 
   /****************************/
   #mobile_nav {
@@ -592,13 +592,13 @@ footer svg {
   }
 
   header span {
-    font-size: 1.1rem;
+    font-size: 1.17rem;
   }
 
   header {
     padding-top: 15px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     max-width: 90%;
   }
 
