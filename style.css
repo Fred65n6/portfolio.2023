@@ -515,6 +515,10 @@ footer svg {
     display: grid;
     gap: 15px;
   }
+
+  #about {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -528,10 +532,6 @@ footer svg {
 
   #mobile_nav {
     display: block;
-  }
-
-  #about {
-    max-width: 90%;
   }
 
   #about p {
