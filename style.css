@@ -549,7 +549,6 @@ footer svg {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    max-width: 90%;
   }
 
   .mobile_divider {
