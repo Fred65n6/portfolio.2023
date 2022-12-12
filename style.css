@@ -525,7 +525,7 @@ footer svg {
   }
 
   .icon_container {
-    gap: 60px;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
