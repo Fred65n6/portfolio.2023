@@ -517,10 +517,10 @@ footer svg {
   }
 
   .portræt {
-    width: 200px;
+    width: 150px;
   }
   #about p {
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 
