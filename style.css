@@ -310,14 +310,20 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
-  align-items: center;
+  place-content: center;
 }
 
 .ikon_item {
   text-align: center;
   color: white;
+  width: 90%;
+}
+
+.ikon_item img {
+  width: 55px;
+  height: 55px;
 }
 
 .skills h2 {
@@ -524,7 +530,7 @@ footer svg {
   }
 
   .icon_container {
-    gap: 15px;
+    gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
