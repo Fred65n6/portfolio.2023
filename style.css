@@ -474,6 +474,10 @@ footer svg {
     transform: translateY(-4px);
   }
 
+  header h1 {
+    max-width: 80%;
+  }
+
   #bar3 {
     transform: translateY(4px);
   }
