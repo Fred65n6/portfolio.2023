@@ -499,7 +499,7 @@ footer svg {
   header {
     padding-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     max-width: 90%;
   }
