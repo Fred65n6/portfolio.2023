@@ -460,9 +460,9 @@ footer svg {
   }
 
   #menu-bar {
-    width: 45px;
-    height: 40px;
-    margin: 30px 0 20px 20px;
+    width: 35px;
+    height: 30px;
+    margin: 30px 0px 0px 00px;
     cursor: pointer;
   }
 
@@ -470,8 +470,8 @@ footer svg {
     height: 5px;
     width: 100%;
     background-color: #902b2b;
-    display: block;
     border-radius: 5px;
+    display: block;
     transition: 0.3s ease;
   }
 
@@ -489,12 +489,13 @@ footer svg {
   }
 
   .nav ul {
-    padding: 0 22px;
-  }
-
-  .nav li {
+    position: absolute;
+    right: 30px;
+    padding: 20px 22px;
+    text-align: center;
     list-style: none;
-    padding: 12px 0;
+    display: grid;
+    gap: 40px;
   }
 
   .nav li a {
@@ -524,6 +525,7 @@ footer svg {
     background: url(./media/noise.svg);
     background-color: #902b2b;
     border-radius: 50%;
+    transition: linear 0.2s;
   }
 
   .change {
