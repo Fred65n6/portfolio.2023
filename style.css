@@ -524,7 +524,6 @@ footer svg {
     background: url(./media/noise.svg);
     background-color: #902b2b;
     border-radius: 50%;
-    transition: linear 0.2s;
   }
 
   .change {
