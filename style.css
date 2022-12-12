@@ -468,6 +468,7 @@ footer svg {
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
+    outline: 0.2px solid #f4f3f37c;
   }
 
   #bar1 {
