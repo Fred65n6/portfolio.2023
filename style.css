@@ -295,7 +295,7 @@ hr {
 }
 
 .skills {
-  margin-block: 100px;
+  margin-block: 70px;
   background-color: #902b2b;
   padding-block: 100px;
   display: grid;
@@ -310,7 +310,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 50px;
+  gap: 60px;
   align-items: center;
   place-content: center;
 }
@@ -525,7 +525,7 @@ footer svg {
   }
 
   .icon_container {
-    gap: 25px;
+    gap: 60px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
