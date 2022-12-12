@@ -515,6 +515,13 @@ footer svg {
     display: grid;
     gap: 15px;
   }
+
+  .portræt {
+    width: 200px;
+  }
+  #about p {
+    max-width: 200%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -674,6 +681,8 @@ footer svg {
 
   .skills_container {
     text-align: center;
+    align-items: center;
+    place-content: center;
   }
 
   .icon_container {
