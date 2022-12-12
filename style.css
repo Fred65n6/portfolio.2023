@@ -518,8 +518,6 @@ footer svg {
   .menu-bg {
     position: absolute;
     z-index: 200;
-    width: 0;
-    height: 0;
     margin: 30px 0 20px 20px;
     background: url(./media/noise.svg);
     background-color: #902b2b;
