@@ -502,8 +502,8 @@ footer svg {
   }
 
   .icon_container {
-    gap: 60px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -527,6 +527,11 @@ footer svg {
   }
   #about p {
     max-width: 250px;
+  }
+
+  .icon_container {
+    gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
