@@ -235,8 +235,8 @@ header {
 .blomst {
   width: auto;
   height: 200px;
-  -webkit-animation: rotate-center 10s linear infinite both;
-  animation: rotate-center 10s linear infinite both;
+  -webkit-animation: rotate-center 15s linear infinite both;
+  animation: rotate-center 15s linear infinite both;
 }
 
 /***********GRAFIK**************/
