@@ -500,6 +500,11 @@ footer svg {
   .about {
     gap: 20px;
   }
+
+  .icon_container {
+    gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 950px) {
@@ -522,11 +527,6 @@ footer svg {
   }
   #about p {
     max-width: 250px;
-  }
-
-  .icon_container {
-    gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
