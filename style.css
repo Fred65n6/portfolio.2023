@@ -531,11 +531,11 @@ footer svg {
   }
 
   #about p {
-    max-width: 250px;
+    max-width: 90%;
   }
 
   .portræt {
-    width: 250px;
+    max-width: 90%;
   }
 
   .mobil_grafik {
