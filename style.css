@@ -96,7 +96,7 @@ header {
   padding-top: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -310,7 +310,9 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 40px;
+  gap: 30px;
+  align-items: center;
+  align-items: center;
 }
 
 .ikon_item {
@@ -485,7 +487,7 @@ footer svg {
   }
 
   .icon_container {
-    gap: 8px;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
