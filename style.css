@@ -457,7 +457,7 @@ footer svg {
   #menu-bar {
     width: 25px;
     height: 30px;
-    margin: 20px 20px 00px 20px;
+    margin: 35px 30px 00px 20px;
     cursor: pointer;
   }
 
@@ -588,8 +588,10 @@ footer svg {
   }
 
   header {
+    padding-top: 10px;
     display: flex;
-    padding-top: 60px;
+    justify-content: flex-start;
+
     max-width: 90%;
   }
 
