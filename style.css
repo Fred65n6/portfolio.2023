@@ -82,13 +82,13 @@ a:hover {
   box-shadow: none;
 }
 
-ul {
+#desktop_nav ul {
   padding-top: 10px;
   display: grid;
   gap: 30px;
 }
 
-li {
+#desktop_nav li {
   list-style: none;
 }
 
@@ -97,7 +97,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0 auto;
 }
 
@@ -450,15 +449,14 @@ footer svg {
 }
 
 @media (max-width: 1300px) {
-  /*************MOBILE_NAV********************/
+  /**********MOBILE_NAV*****************/
 
-  /******************************************/
+  /***********************************/
+
   #mobile_nav {
     display: block;
-  }
-
-  .portfolio_container:hover .carousel-item {
-    filter: brightness(100%);
+    position: fixed;
+    z-index: 200;
   }
 
   body {
@@ -512,6 +510,10 @@ footer svg {
     width: 100vw;
     height: 450px;
     gap: 10px;
+  }
+
+  .portfolio_container:hover .carousel-item {
+    filter: brightness(100%);
   }
 
   #funke {
