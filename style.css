@@ -518,6 +518,14 @@ footer svg {
 }
 
 @media (max-width: 750px) {
+  header {
+    max-width: 90%;
+  }
+
+  .carousel-wrapper {
+    width: 90%;
+  }
+
   #mobile_nav {
     display: block;
   }
@@ -527,7 +535,7 @@ footer svg {
   }
 
   .portræt {
-    width: 300px;
+    max-width: 300px;
   }
 
   .mobil_grafik {
