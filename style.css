@@ -457,7 +457,7 @@ footer svg {
   #menu-bar {
     width: 25px;
     height: 30px;
-    margin: 35px 30px 00px 20px;
+    margin: 30px 20px 00px 20px;
     cursor: pointer;
   }
 
@@ -472,10 +472,6 @@ footer svg {
 
   #bar1 {
     transform: translateY(-4px);
-  }
-
-  header h1 {
-    max-width: 80%;
   }
 
   #bar3 {
@@ -592,9 +588,9 @@ footer svg {
   }
 
   header {
-    padding-top: 10px;
+    padding-top: 60px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
     max-width: 90%;
   }
