@@ -457,7 +457,7 @@ footer svg {
   #menu-bar {
     width: 25px;
     height: 30px;
-    margin: 30px 0 20px 10px;
+    margin: 20px 0 20px 10px;
     cursor: pointer;
   }
 
@@ -466,7 +466,7 @@ footer svg {
     width: 100%;
     background-color: #902b2b;
     display: block;
-    border-radius: 5px;
+
     transition: 0.3s ease;
     outline: 0.2px solid #f4f3f37c;
   }
