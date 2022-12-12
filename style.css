@@ -555,11 +555,15 @@ footer svg {
     z-index: 200;
   }
 
+  .mobil_grafik {
+    width: 60px;
+  }
+
   body {
     max-width: 100vw;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   h2 {
@@ -584,14 +588,14 @@ footer svg {
   }
 
   header span {
-    font-size: 1.4rem;
+    font-size: 1.65rem;
   }
 
   header {
-    padding-top: 60px;
+    padding-top: 20px;
     display: flex;
-    justify-content: center;
-
+    justify-content: flex-start;
+    gap: 20px;
     max-width: 90%;
   }
 
