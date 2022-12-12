@@ -530,12 +530,17 @@ footer svg {
     display: block;
   }
 
+  #about {
+    max-width: 90%;
+  }
+
   #about p {
     max-width: 90%;
   }
 
   .portræt {
     max-width: 90%;
+    height: auto;
   }
 
   .mobil_grafik {
