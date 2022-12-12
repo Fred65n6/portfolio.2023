@@ -522,7 +522,6 @@ footer svg {
     background: url(./media/noise.svg);
     background-color: #902b2b;
     border-radius: 50%;
-    transition: 0.3s ease;
   }
 
   .change {
@@ -595,10 +594,9 @@ footer svg {
   }
 
   header {
-    padding-top: 20px;
+    padding-top: 15px;
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+    justify-content: flex-start;
     max-width: 90%;
   }
 
