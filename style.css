@@ -656,10 +656,6 @@ footer svg {
     cursor: auto;
     display: block;
   }
-
-  .right-arrow,
-  .left-arrow {
-  }
 }
 
 @media (max-width: 1100px) {
