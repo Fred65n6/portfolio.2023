@@ -3,23 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
 
-@font-face {
-  font-family: "quentin";
-  src: url("./fonts/quentin-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "sansation";
-  src: url("./fonts/sansation_light-webfont.woff") format("woff");
+html {
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .carousel::-webkit-scrollbar {
@@ -39,18 +29,50 @@ main {
 
 h1 {
   font-family: "Almarai", sans-serif;
-  font-size: 6rem;
+  font-size: 6.45vw;
+}
+
+header {
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 40px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+}
+
+li a {
+  font-size: 18px;
+}
+
+#title span {
+  color: #902b2b;
+  font-size: 5.35vw;
 }
 
 h2 {
   font-family: "Almarai", sans-serif;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 h3 {
   font-family: "Almarai", sans-serif;
-  font-size: 28px;
+  font-size: 1.3px;
   font-weight: 600;
 }
 
@@ -60,19 +82,15 @@ p {
   font-size: 1.1rem;
 }
 
-header span {
-  color: #902b2b;
-  font-size: 5rem;
-}
-
 a {
-  font-family: "Quicksand", sans-serif;
-  font-size: 30px;
+  font-family: "Almarai", sans-serif;
+  font-size: 1.5rem;
   text-decoration: none;
   box-shadow: inset 0 0 0 0 #902b2b;
   color: #000000;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 a:hover {
   box-shadow: inset 360px 0 0 0 #902b2b;
   color: white;
@@ -85,27 +103,20 @@ a:hover {
 #desktop_nav ul {
   display: grid;
   gap: 20px;
+  text-align: right;
 }
 
 #desktop_nav li {
   list-style: none;
 }
 
-header {
+#title {
   max-width: 80%;
   padding-top: 30px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-}
-
-#mobile_nav {
-  display: none;
-}
-
-.mobil_grafik {
-  display: none;
 }
 /******CAROUSEL**********/
 
@@ -163,14 +174,9 @@ header {
   fill: #f3f3f3;
 }
 
-#mobil_grafik {
-  display: none;
-}
-
 .arrow-inactive {
   opacity: 0.5;
   cursor: auto;
-  display: none;
 }
 
 .carousel-item {
@@ -246,22 +252,20 @@ header {
 /***********GRAFIK**************/
 
 #grafik {
-  width: 400px;
-  height: 350px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px;
-  padding-inline: 40px;
-  place-items: center;
+  gap: 10px;
+  width: auto;
+  transform: rotate(180deg);
 }
 
 .kasse_1,
 .kasse_2,
 .kasse_3,
 .kasse_4 {
-  height: 150px;
-  width: 150px;
+  height: 6vw;
+  width: auto;
 }
 
 .kasse_2,
@@ -343,7 +347,7 @@ footer {
   place-items: center;
   margin: 0 auto;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 footer h2 {
@@ -365,11 +369,10 @@ footer svg {
   display: flex;
   gap: 40px;
   padding-top: 10px;
-  padding-bottom: 60px;
 }
 
 .knap {
-  font-weight: 500;
+  font-weight: 5600;
   display: flex;
   align-items: center;
   color: #902b2b;
@@ -462,30 +465,6 @@ footer svg {
 }
 
 @media (max-width: 1200px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  header span {
-    font-size: 3.2rem;
-  }
-  a {
-    font-size: 15px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 28px;
-  }
-
-  p {
-    line-height: 1.7;
-    font-size: 1rem;
-  }
-
   .portræt {
     height: 400px;
     padding-top: 30px;
@@ -507,14 +486,6 @@ footer svg {
 }
 
 @media (max-width: 950px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  header span {
-    font-size: 2.5rem;
-  }
-
   #desktop_nav ul {
     padding-top: 10px;
     display: grid;
@@ -539,12 +510,24 @@ footer svg {
     max-width: 90%;
   }
 
+  .kasse_1,
+  .kasse_2,
+  .kasse_3,
+  .kasse_4 {
+    height: 5.5vw;
+    width: 5.5vw;
+  }
+
   .carousel-wrapper {
     width: 90%;
   }
 
   #mobile_nav {
     display: block;
+  }
+
+  #grafik {
+    gap: 5px;
   }
 
   #about p {
@@ -561,37 +544,9 @@ footer svg {
     width: 50px;
   }
 
-  body {
-    max-width: 100vw;
-  }
-
-  h1 {
-    font-size: 1.4rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
   footer p {
     font-size: 0.9rem;
     padding-block: 5px;
-  }
-
-  #grafik {
-    display: none;
-  }
-
-  header span {
-    font-size: 1.15rem;
   }
 
   header {
@@ -601,6 +556,7 @@ footer svg {
   }
 
   .mobile_divider {
+    color: #902b2b;
     text-align: center;
     width: 80%;
   }
@@ -643,23 +599,12 @@ footer svg {
     height: 450px;
     width: 90vw;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
   }
 
   #nb {
     height: 450px;
     width: 90vw;
-    display: grid;
-    place-items: center;
-  }
-
-  .blomst {
-    width: 90vw;
-  }
-
-  .arrow-inactive {
-    cursor: auto;
-    display: block;
   }
 
   .about {
@@ -674,25 +619,16 @@ footer svg {
     gap: 0px;
   }
 
-  hr {
-    display: none;
-  }
-
   .mobile_divider {
     display: block;
     width: 100%;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 35px;
   }
 
   .about_text {
     display: grid;
     max-width: 400px;
-  }
-
-  .skills_container {
-    text-align: center;
-    align-items: center;
-    place-content: center;
   }
 
   .icon_container {
@@ -709,6 +645,7 @@ footer svg {
   }
 
   .kontakt_knapper {
+    padding-top: 40px;
     display: grid;
   }
 
