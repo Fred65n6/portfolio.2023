@@ -642,6 +642,7 @@ footer svg {
 
   footer p {
     font-size: 0.9rem;
+    padding-block: 15px;
   }
 
   .knap {
