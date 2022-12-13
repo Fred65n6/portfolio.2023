@@ -85,6 +85,7 @@ a:hover {
 #desktop_nav ul {
   display: grid;
   gap: 20px;
+  text-align: right;
 }
 
 #desktop_nav li {
