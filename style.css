@@ -511,6 +511,7 @@ footer svg {
 @media (max-width: 750px) {
   #title {
     max-width: 90%;
+    padding-top: 10px;
   }
 
   .carousel-wrapper {
