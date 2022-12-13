@@ -112,7 +112,7 @@ a:hover {
 
 #title {
   max-width: 80%;
-  padding-top: 30px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +123,7 @@ a:hover {
 .carousel-wrapper {
   margin: 0 auto;
   display: flex;
-  padding-block: 40px;
+  padding-block: 20px;
   justify-content: space-between;
   gap: 0.5em;
   width: 80%;
@@ -182,6 +182,11 @@ a:hover {
 .carousel-item {
   position: relative;
   z-index: 2;
+}
+
+.portfolio_divider {
+  background-color: #902b2b;
+  width: 1.5px;
 }
 
 .portfolio_container h3 {
@@ -654,4 +659,106 @@ footer svg {
     font-size: 16px;
     width: 250px;
   }
+}
+
+#menu {
+  z-index: 2;
+  background-color: #902b2b;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#menu-bar {
+  width: 25px;
+  height: 20px;
+  margin: 18px 0px 0px 12px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar2 {
+  width: 20px;
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  z-index: 200;
+  position: absolute;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+  position: fixed;
+  z-index: 1000;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  background: url(./media/noise.svg);
+  background-color: #902b2b;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(50%, -30%);
 }

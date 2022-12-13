@@ -34,24 +34,21 @@
 
   <body>
     <!-- <header>
-      <nav id="desktop_nav">
+      <div id="menu">
+       <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
         <ul>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#about">ABOUT ME</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+         <li onclick="menuOnClick()"><a href="#portfolio">PORTFOLIO</a></li>
+         <li onclick="menuOnClick()"><a href="#about">ABOUT</a></li>
+          <li onclick="menuOnClick()"><a href="#contact">CONTACT</a></li>
         </ul>
-      </nav>
-    </header> -->
-<!-- 
-    <header>
-      <img src="./media/FM..svg" alt="" />
-      <nav>
-        <ul>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </nav>
+      </nav> 
+     </div>
+    <div class="menu-bg" id="menu-bg"></div>
     </header> -->
 
     <main>
@@ -68,6 +65,8 @@
           <img class="kasse_4" src="./media/cirkel.png" alt="" />
         </div>
       </div>
+
+
       <div class="carousel-wrapper">
         <button
           type="button"
@@ -101,7 +100,7 @@
             </div>
             <h3>
               FUNKE
-              <hr />
+              <div class="portfolio_divider"></div>
               WEBSITE
             </h3>
           </div>
@@ -116,7 +115,7 @@
             </div>
             <h3>
               NØRREBRO BRYGHUS
-              <hr />
+              <div class="portfolio_divider"></div>
               WEBSITE
             </h3>
           </div>
@@ -129,7 +128,7 @@
             </div>
             <h3>
               MAKE!MPACT
-              <hr />
+              <div class="portfolio_divider"></div>
               APP DESIGN
             </h3>
           </div>
