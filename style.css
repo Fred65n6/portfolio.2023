@@ -101,13 +101,10 @@ header {
   margin: 0 auto;
 }
 
-#mobile_nav {
+#mobil {
   display: none;
 }
 
-.mobil_grafik {
-  display: none;
-}
 /******CAROUSEL**********/
 
 .carousel-wrapper {
@@ -538,6 +535,10 @@ footer svg {
 @media (max-width: 750px) {
   header {
     max-width: 90%;
+  }
+
+  #desktop {
+    display: none;
   }
 
   .carousel-wrapper {
