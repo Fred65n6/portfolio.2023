@@ -126,7 +126,7 @@ a:hover {
   padding-block: 40px;
   justify-content: space-between;
   gap: 0.5em;
-  width: 88%;
+  width: 80%;
 }
 
 .carousel {
@@ -156,8 +156,7 @@ a:hover {
 .left-arrow {
   background-color: #f3f3f300;
   border-radius: 50%;
-  position: relative;
-  left: 5%;
+  position: absolute;
   z-index: 100;
   margin-left: 10px;
 }
@@ -165,9 +164,9 @@ a:hover {
 .right-arrow {
   background-color: #f3f3f300;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   z-index: 100;
-  right: 5%;
+  right: 11%;
   margin-right: 5px;
 }
 
@@ -569,6 +568,10 @@ footer svg {
 
   .carousel-wrapper {
     padding-block: 15px;
+  }
+
+  .right-arrow {
+    right: 4%;
   }
 
   .portfolio_container:hover .carousel-item {
