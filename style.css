@@ -640,13 +640,13 @@ footer svg {
   }
 
   .kontakt_knapper {
-    padding-top: 40px;
+    padding-top: 10px;
     display: grid;
   }
 
   footer p {
     font-size: 0.9rem;
-    padding-block: 15px;
+    padding-block: 25px;
   }
 
   .knap {
