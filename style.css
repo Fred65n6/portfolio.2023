@@ -126,7 +126,7 @@ a:hover {
   padding-block: 40px;
   justify-content: space-between;
   gap: 0.5em;
-  width: 80%;
+  width: 88%;
 }
 
 .carousel {
@@ -156,7 +156,8 @@ a:hover {
 .left-arrow {
   background-color: #f3f3f300;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
+  left: 5%;
   z-index: 100;
   margin-left: 10px;
 }
@@ -164,9 +165,9 @@ a:hover {
 .right-arrow {
   background-color: #f3f3f300;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   z-index: 100;
-  right: 10%;
+  right: 5%;
   margin-right: 5px;
 }
 
