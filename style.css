@@ -264,7 +264,7 @@ a:hover {
 .kasse_2,
 .kasse_3,
 .kasse_4 {
-  height: 6vw;
+  height: 5.5vw;
   width: auto;
 }
 
@@ -279,13 +279,17 @@ a:hover {
   max-width: 1000px;
   justify-content: center;
   padding-top: 80px;
+  align-items: center;
   display: flex;
   gap: 100px;
   margin: 0 auto;
 }
 
-hr {
+.divider {
+  background-color: #902b2b;
   color: #902b2b;
+  width: 15px;
+  height: 400px;
 }
 
 .about img {
@@ -293,9 +297,8 @@ hr {
   width: auto;
 }
 
-.about_text {
-  display: grid;
-  max-width: 400px;
+.about p {
+  padding-block: 10px;
 }
 
 .skills {
@@ -506,14 +509,6 @@ footer svg {
 }
 
 @media (max-width: 750px) {
-  .kasse_1,
-  .kasse_2,
-  .kasse_3,
-  .kasse_4 {
-    height: 5.5vw;
-    width: 5.5vw;
-  }
-
   #title {
     max-width: 90%;
   }
@@ -544,15 +539,14 @@ footer svg {
     width: 50px;
   }
 
-  footer p {
-    font-size: 0.9rem;
-    padding-block: 5px;
-  }
-
   header {
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .divider {
+    display: none;
   }
 
   .mobile_divider {
