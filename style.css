@@ -551,9 +551,10 @@ footer svg {
   }
 
   .mobile_divider {
-    color: #902b2b;
+    background-color: #902b2b;
     text-align: center;
     width: 80%;
+    height: 1px;
   }
 
   #desktop_nav {
