@@ -639,6 +639,10 @@ footer svg {
     display: grid;
   }
 
+  footer p {
+    font-size: 0.9rem;
+  }
+
   .knap {
     font-size: 16px;
     width: 250px;
