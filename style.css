@@ -515,7 +515,7 @@ footer svg {
   }
 
   #title {
-    width: 90%;
+    max-width: 90%;
   }
 
   .carousel-wrapper {
