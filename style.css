@@ -270,7 +270,7 @@ header {
 /*******ABOUT*************/
 
 .about {
-  max-width: 80%;
+  max-width: 100%;
   justify-content: center;
   padding-top: 80px;
   display: flex;
@@ -288,8 +288,10 @@ header {
   width: auto;
 }
 
-hr {
-  color: #902b2b;
+.desktop_divider {
+  background-color: #902b2b;
+  width: 1px;
+  height: 500px;
 }
 
 .mobile_divider {
@@ -342,8 +344,7 @@ footer {
   display: grid;
   place-items: center;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 footer h2 {
@@ -492,9 +493,17 @@ footer svg {
   }
 
   #desktop_nav ul {
-    padding-top: 20px;
     display: grid;
     gap: 25px;
+  }
+
+  #desktop li {
+    font-weight: 500;
+  }
+
+  .desktop_divider {
+    margin-inline: 10px;
+    height: 400px;
   }
 
   .about {
@@ -523,6 +532,31 @@ footer svg {
 
   .portræt {
     width: 150px;
+  }
+
+  .about {
+    padding-top: 10px;
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    max-width: 90%;
+  }
+
+  .about_text {
+    display: grid;
+  }
+
+  .desktop_divider {
+    display: none;
+  }
+
+  .mobile_divider {
+    display: block;
+    background-color: #902b2b;
+    width: 100%;
+    height: 0.7px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
   .icon_container {
@@ -584,7 +618,6 @@ footer svg {
 
   footer p {
     font-size: 0.9rem;
-    padding-block: 5px;
   }
 
   #grafik {
@@ -601,11 +634,6 @@ footer svg {
     justify-content: space-between;
   }
 
-  .mobile_divider {
-    text-align: center;
-    width: 80%;
-  }
-
   #desktop_nav {
     display: none;
   }
@@ -614,6 +642,10 @@ footer svg {
     width: 100vw;
     height: 450px;
     gap: 10px;
+  }
+
+  .carousel {
+    gap: 0px;
   }
 
   .carousel-wrapper {
@@ -644,13 +676,6 @@ footer svg {
     justify-content: center;
   }
 
-  #m {
-    height: 450px;
-    width: 90vw;
-    background-position: center;
-    background-size: cover;
-  }
-
   #nb {
     height: 450px;
     width: 90vw;
@@ -662,39 +687,11 @@ footer svg {
     width: 90vw;
   }
 
-  .arrow-inactive {
-    cursor: auto;
-    display: block;
-  }
-
-  .about {
-    padding-top: 10px;
-    display: grid;
-    gap: 20px;
-    place-items: center;
-    padding-inline: 20px;
-  }
-
-  .carousel {
-    gap: 0px;
-  }
-
-  hr {
-    display: none;
-  }
-
-  .mobile_divider {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .about {
-    max-width: 90%;
-  }
-
-  .about_text {
-    display: grid;
+  #m {
+    height: 450px;
+    width: 90vw;
+    background-position: center;
+    background-size: cover;
   }
 
   .skills_container {
@@ -721,6 +718,8 @@ footer svg {
     font-size: 16px;
     width: 250px;
   }
+
+  /**********MOBIL NAV****************/
 
   #menu {
     z-index: 200;
