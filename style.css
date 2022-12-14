@@ -166,7 +166,7 @@ header {
 }
 
 .arrow-inactive {
-  opacity: 0.5;
+  opacity: 0.2;
   cursor: auto;
   display: none;
 }
@@ -270,7 +270,7 @@ header {
 /*******ABOUT*************/
 
 .about {
-  max-width: 1000px;
+  max-width: 80%;
   justify-content: center;
   padding-top: 80px;
   display: flex;
@@ -278,8 +278,9 @@ header {
   margin: 0 auto;
 }
 
-hr {
-  color: #902b2b;
+.about p {
+  max-width: 400px;
+  padding-top: 10px;
 }
 
 .about img {
@@ -287,9 +288,12 @@ hr {
   width: auto;
 }
 
-.about_text {
-  display: grid;
-  max-width: 400px;
+hr {
+  color: #902b2b;
+}
+
+.mobile_divider {
+  display: none;
 }
 
 .skills {
@@ -298,10 +302,18 @@ hr {
   padding-block: 100px;
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
-.mobile_divider {
-  display: none;
+.skills h2 {
+  color: white;
+}
+
+.skills_container {
+  margin: 0 auto;
+  max-width: 90%;
+  display: grid;
+  gap: 50px;
 }
 
 .icon_container {
@@ -324,16 +336,6 @@ hr {
   height: 55px;
 }
 
-.skills h2 {
-  color: white;
-}
-
-.skills_container {
-  display: grid;
-  gap: 50px;
-  max-width: 1300px;
-  padding-inline: 20px;
-}
 /**************FOOTER**************************/
 
 footer {
@@ -522,9 +524,6 @@ footer svg {
   .portræt {
     width: 150px;
   }
-  #about p {
-    max-width: 250px;
-  }
 
   .icon_container {
     gap: 60px;
@@ -551,10 +550,6 @@ footer svg {
 
   #mobile_nav {
     display: block;
-  }
-
-  #about p {
-    max-width: 90%;
   }
 
   .portræt {
@@ -694,28 +689,28 @@ footer svg {
     margin-bottom: 40px;
   }
 
+  .about {
+    max-width: 90%;
+  }
+
   .about_text {
     display: grid;
-    max-width: 400px;
   }
 
   .skills_container {
-    text-align: center;
     align-items: center;
     place-content: center;
   }
 
   .icon_container {
-    gap: 8px;
+    margin: 0 auto;
+    max-width: 90%;
+    gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   .ikon_item {
     padding-block: 10px;
-  }
-
-  #kontatk {
-    margin-inline: 20px;
   }
 
   .kontakt_knapper {
@@ -739,7 +734,7 @@ footer svg {
   }
 
   .bar {
-    height: 5px;
+    height: 4px;
     width: 100%;
     background-color: #902b2b;
     display: block;
@@ -823,8 +818,7 @@ footer svg {
     width: 520px;
     height: 460px;
     transform: translate(60%, -30%);
-      position: absolute;
-  z-index: 100;
-}
+    position: absolute;
+    z-index: 100;
   }
 }
