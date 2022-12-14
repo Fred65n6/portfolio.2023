@@ -569,6 +569,10 @@ footer svg {
     width: 150px;
   }
 
+  #grafik {
+    display: none;
+  }
+
   .about {
     padding-top: 10px;
     display: grid;
