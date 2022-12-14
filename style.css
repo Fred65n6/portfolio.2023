@@ -233,6 +233,12 @@ header {
   animation: fade-in-top 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
+.portfolie_divider {
+  background-color: #902b2b;
+  height: 22px;
+  width: 1.5px;
+}
+
 /**********FUNKE************/
 
 #funke {
