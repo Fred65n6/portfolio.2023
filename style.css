@@ -573,6 +573,10 @@ footer svg {
     display: none;
   }
 
+  .carousel {
+    gap: 0em;
+  }
+
   .about {
     padding-top: 10px;
     display: grid;
