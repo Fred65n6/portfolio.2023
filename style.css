@@ -532,8 +532,7 @@ footer svg {
   }
 
   #desktop_nav ul {
-    display: grid;
-    gap: 25px;
+    gap: 10px;
   }
 
   #desktop li {
@@ -561,12 +560,6 @@ footer svg {
 
   header span {
     font-size: 2.5rem;
-  }
-
-  #desktop_nav ul {
-    padding-top: 10px;
-    display: grid;
-    gap: 15px;
   }
 
   .portræt {
@@ -601,6 +594,10 @@ footer svg {
   .icon_container {
     gap: 60px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #desktop_nav ul {
+    gap: 0px;
   }
 }
 
