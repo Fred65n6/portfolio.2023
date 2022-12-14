@@ -168,7 +168,6 @@ header {
 .arrow-inactive {
   opacity: 0.2;
   cursor: auto;
-  display: none;
 }
 
 .carousel-item {
@@ -702,7 +701,7 @@ footer svg {
   .icon_container {
     margin: 0 auto;
     max-width: 90%;
-    gap: 40px;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
