@@ -124,6 +124,10 @@ a {
   list-style: none;
 }
 
+#desktop {
+  padding-top: 40px;
+}
+
 header {
   max-width: 80%;
   padding-top: 30px;
