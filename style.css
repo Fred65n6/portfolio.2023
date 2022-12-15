@@ -28,8 +28,14 @@ html {
 body {
   background-image: url(./media/noise.svg);
   background-color: #f4f3f3;
-  background-attachment: fixed;
+
   overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-attachment: fixed;
+  }
 }
 
 main {
