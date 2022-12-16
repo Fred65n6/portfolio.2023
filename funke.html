@@ -70,25 +70,28 @@
      <h1>Funke</h1>
   </section> -->
        
-    <section id="single">
+    <section id="top"">
       <div class="single_text">
             <div class="">
                 <h1>Funke</h1>
-             <h2>Creating an identity</h2>
+             <h2>Website design</h2>
              <br>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore expedita autem alias voluptates corporis at animi similique, quisquam possimus quos nobis aliquid facere architecto nemo ducimus earum eaque exercitationem impedit minima obcaecati asperiores ipsum magnam suscipit facilis? Aspernatur, voluptas sed!</p>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore expedita autem alias voluptates corporis at animi similique, quisquam possimus quos nobis aliquid facere architecto nemo ducimus earum eaque exercitationem impedit minima obcaecati asperiores ipsum magnam suscipit facilis!</p>
             </div>
           
         </div>
         <div class="img">
-            <img src="./media/funke.drink.webp" alt="">
+            <img class="funke_top" src="./media/funke_mockup.svg" alt="">
         </div>
       </div>
     </section>
 
+    <section class="scroll"> <a href="#content"><svg width="50" height="50" viewBox="0 0 24 24"><path  d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg></a></section>
+
+    <div id="content" class="hidden">
      <section id="single">
           <div class="img">
-            <img src="./media/m!app.gif" alt="">
+            <img src="./media/visual_identity.webp" alt="">
         </div>
       <div class="single_text">
             <div class="">
@@ -102,24 +105,43 @@
       </div>
     </section>
 
-     <section id="single">
+     <section id="single" class="hidden">
       <div class="single_text">
             <div class="">
-             <h2>Creating an identity</h2>
+             <h2>Dynamic content</h2>
              <br>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore expedita autem alias voluptates corporis at animi similique, quisquam possimus quos nobis aliquid facere architecto nemo ducimus earum eaque exercitationem impedit minima obcaecati asperiores ipsum magnam suscipit facilis? Aspernatur, voluptas sed!</p>
             </div>
         
         </div>
         <div class="img">
-            <img src="./media/funke.drink.webp" alt="">
+            <img src="./media/dynamic_content.webp" alt="">
         </div>
       </div>
     </section>
-    <section id="site_link">
 
-                <a class="knap" href="*">VISIT SITE<svg width="32" height="32" viewBox="0 0 24 24"><path d="M4 10v4h9l-3.5 3.5l2.42 2.42L19.84 12l-7.92-7.92L9.5 6.5L13 10H4Z"/></svg></a>
-           
+    
+     <section id="single" class="hidden">
+          <div class="img">
+                <div id="funke" class="background">
+                  <img class="funke_single_gif" src="./media/FunkeLogo.gif" alt="" />
+                </div>
+        </div>
+      <div class="single_text">
+            <div class="">
+             <h2>Final webdesign</h2>
+             <br>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore expedita autem alias voluptates corporis at animi similique, quisquam possimus quos nobis aliquid facere architecto nemo ducimus earum eaque exercitationem impedit minima obcaecati asperiores ipsum magnam suscipit facilis? Aspernatur, voluptas sed!</p>
+            </div>
+          
+        </div>
+      
+      </div>
+    </section>
+    </div>
+
+    <section id="site_link">
+      <a class="knap" href="https://sunebech.dk/funke/">VISIT SITE<svg width="32" height="32" viewBox="0 0 24 24"><path d="M4 10v4h9l-3.5 3.5l2.42 2.42L19.84 12l-7.92-7.92L9.5 6.5L13 10H4Z"/></svg></a>
     </section>
   </main>
 
@@ -141,7 +163,7 @@
         I always appreciate being contacted.
       </p>
       <div class="kontakt_knapper">
-        <a class="knap" href = "mailto: frederik-milland@hotmail.com
+        <a class="knap" href = "mailto: frederik-milland@hotmail.com"
           ><svg width="32" height="32" viewBox="0 0 24 24">
             <path
               d="M15.95 21.575q-.2 0-.375-.063q-.175-.062-.325-.212l-2.85-2.85q-.275-.275-.275-.7q0-.425.275-.7q.275-.275.7-.275q.425 0 .7.275l2.15 2.15l4.95-4.95q.275-.275.7-.275q.425 0 .7.275q.275.275.275.7q0 .425-.275.7l-5.65 5.65q-.15.15-.325.212q-.175.063-.375.063Zm-4.475-8.9q.25.15.525.15t.525-.15l7-4.375q.2-.125.338-.388Q20 7.65 20 7.4q0-.475-.4-.687q-.4-.213-.8.037L12 11L5.2 6.75q-.4-.25-.8-.025t-.4.7q0 .25.138.5q.137.25.337.375ZM4 20q-.825 0-1.412-.587Q2 18.825 2 18V6q0-.825.588-1.412Q3.175 4 4 4h16q.825 0 1.413.588Q22 5.175 22 6v5.525q-.425-.075-.9.062q-.475.138-.85.513l-4.275 4.275l-1.45-1.45q-.6-.6-1.425-.6q-.825 0-1.425.6L10.3 16.3q-.6.6-.6 1.425q0 .825.6 1.425l.85.85Z"
@@ -167,29 +189,68 @@
 <style>
 
 
-#single {
-    padding-top: 100px;
+#top {
+    padding-top: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
     padding-bottom: 20px;
+
+}
+
+#single {
+    padding-block: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+
+.scroll {
+  display: grid;
+  margin: 0 auto;
+  place-items: center;
+  border:none;
+}
+
+.scroll a {
+  border: none;
+  fill: #902b2b;
+}
+
+.scroll a:hover {
+  transform: scale(1.5);
+  transition: ease 0.5s;
 }
 
 #single h1 {
     padding-bottom: 20px;
 }
 
-#single h2 {
+h2 {
    color: #902b2b;  
 }
 
-#single img {
-    width: 700px;
-    height: auto;
+#top img {
+    width: auto;
+    max-height: 450px;
 }
 
+
+
+#single img {
+    width: auto;
+    max-height: 400px;
+    max-width: 700px;
+}
+
+#single .funke_single_gif {
+  max-width: 400px;
+}
     .single_text {
         display: flex;
         flex-direction: column;
@@ -201,20 +262,18 @@
         max-width: 450px;
     }
 
+       .single_text h1 {
+      font-size: 3.5rem;
+    }
+
     #single_headline {
         max-width: 80%;
         margin: 0 auto;
         padding-top: 80px;
     }
 
-    #single_headline h1 {
-        color: #902b2b;
-        font-size: 4rem;
-        padding-bottom: 20px;
-    }
-
     #site_link {
-       background: url(./media/Rectangle.webp);
+        background: url(./media/Rectangle.webp);
         background-color: #902b2b;
         display: grid;
         place-content: center;
@@ -226,11 +285,18 @@
 
 
     @media (max-width: 950px) {
-        #single {
-            padding-top: 0px;
+
+      #top { padding-top: 40px;
             display: grid;
             max-width: 90%;
-            padding-bottom: 20px;
+            padding-bottom: 80px;
+
+      }
+        #single {
+            padding-top: 40px;
+            display: grid;
+            max-width: 90%;
+            padding-bottom: 80px;
         }
 
         #single h1 {
@@ -242,6 +308,7 @@
         }
 
      
+        
       #single .img {
     order: 1;
   }
@@ -266,7 +333,7 @@
     }
 
     #site_link {
-      margin-top: 40px;
+      margin-top: 0px;
       margin-bottom: 60px;
     }
     }
