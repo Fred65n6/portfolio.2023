@@ -43,10 +43,11 @@
     </nav>
   </header>
   <header id="mobil">
-      <h1>
+      <a href="index.html"><h1>
         <span>MULTIMEDIA DESIGNER </span> <br />
         FREDERIK MILLAND
       </h1>
+      </a>
       <div id="menu">
         <div id="menu-bar" onclick="menuOnClick()">
           <div id="bar1" class="bar"></div>
@@ -115,9 +116,9 @@
         </div>
       </div>
     </section>
-    <section id="site_link">
+      <section id="site_link">
 
-                <a class="knap" href="*">VISIT SITE<svg width="32" height="32" viewBox="0 0 24 24"><path d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6Z"/></svg></a>
+                <a class="knap" href="*">VISIT SITE<svg width="32" height="32" viewBox="0 0 24 24"><path d="M4 10v4h9l-3.5 3.5l2.42 2.42L19.84 12l-7.92-7.92L9.5 6.5L13 10H4Z"/></svg></a>
            
     </section>
   </main>
@@ -212,6 +213,7 @@
     }
 
     #site_link {
+        background: url(./media/Rectangle.webp);
         background-color: #902b2b;
         display: grid;
         place-content: center;
@@ -224,7 +226,7 @@
 
     @media (max-width: 950px) {
         #single {
-            padding-top: 20px;
+            padding-top: 0px;
             display: grid;
             max-width: 90%;
             padding-bottom: 20px;

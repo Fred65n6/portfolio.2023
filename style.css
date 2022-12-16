@@ -26,7 +26,6 @@ html {
 }
 
 body {
-  background: url(./media/noise.svg);
   background: url(./media/Rectangle.webp);
   background-color: #f4f3f3;
   overflow-x: hidden;
@@ -369,6 +368,7 @@ header {
 
 .skills {
   margin-block: 100px;
+  background: url(./media/Rectangle.webp);
   background-color: #902b2b;
   padding-block: 100px;
   display: grid;
@@ -468,6 +468,7 @@ footer svg {
 
 #site_link .knap svg {
   fill: white;
+  margin-left: 10px;
 }
 
 #site_link .knap:hover svg {
