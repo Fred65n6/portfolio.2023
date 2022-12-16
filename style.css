@@ -30,8 +30,8 @@ body {
   background: url(./media/Rectangle.webp);
   background-color: #f4f3f3;
   overflow-x: hidden;
-  -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 1s cubic-bezier(0.55, 0.055, 0.275, 0.19) both;
+  animation: fade-in 1s cubic-bezier(0.55, 0.055, 0.275, 0.19) both;
 }
 
 @media (min-width: 1200px) {
