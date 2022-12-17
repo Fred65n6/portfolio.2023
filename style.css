@@ -712,6 +712,26 @@ h2 {
   padding-inline: 30px;
 }
 
+@media (max-width: 1200px) {
+  #top img {
+    max-width: 400px;
+  }
+
+  #single img {
+    max-width: 400px;
+  }
+
+  #single .funke_single_gif {
+    max-width: 250px;
+  }
+
+  #single .background {
+    max-width: 400px;
+    background-position: right;
+    max-height: 300px;
+  }
+}
+
 @media (max-width: 950px) {
   #top {
     padding-top: 40px;
