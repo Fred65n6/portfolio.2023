@@ -665,11 +665,6 @@ footer svg {
   max-height: 450px;
 }
 
-.funke_single_gif {
-  max-width: 700px;
-  padding: 100px;
-}
-
 .gif {
   mask: url(./media/mask.svg);
   -webkit-mask-image: url(./media/mask.svg);
@@ -891,7 +886,11 @@ footer svg {
 }
 
 @media (max-width: 750px) {
+  .left-arrow {
+    margin-top: 10px;
+  }
   .right-arrow {
+    margin-top: 10px;
     margin-right: 0px;
   }
   header {
@@ -969,6 +968,7 @@ footer svg {
   }
 
   #funke {
+    place-content: top;
     width: 100%;
     height: 80vh;
     background-size: cover;
