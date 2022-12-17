@@ -45,7 +45,7 @@ main {
 
 h1 {
   font-family: "Almarai", sans-serif;
-  font-size: 5.8rem;
+  font-size: 4.6rem;
 }
 
 h2 {
@@ -68,7 +68,7 @@ p {
 
 header span {
   color: #902b2b;
-  font-size: 4.8rem;
+  font-size: 3.82rem;
 }
 
 a {
@@ -137,7 +137,7 @@ a {
 
 header {
   max-width: 80%;
-  padding-top: 30px;
+  padding-top: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
