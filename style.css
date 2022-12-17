@@ -121,8 +121,9 @@ a {
 }
 
 #desktop_nav ul {
-  display: grid;
-  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: right;
 }
 
