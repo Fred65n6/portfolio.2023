@@ -231,7 +231,6 @@ header {
   border-radius: 50%;
   position: absolute;
   z-index: 10;
-  margin-left: 10px;
 }
 
 .right-arrow {
@@ -239,8 +238,6 @@ header {
   border-radius: 50%;
   position: absolute;
   z-index: 10;
-  right: 10%;
-  margin-right: 5px;
 }
 
 .arrows svg {
