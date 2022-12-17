@@ -639,7 +639,8 @@ footer svg {
 }
 
 .funke_single_gif {
-  max-width: 300px;
+  max-width: 700px;
+  padding: 100px;
 }
 
 .scroll a {
@@ -682,6 +683,14 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#funke_single {
+  background-image: url(./media/Forside\ -\ Drink\ -\ Desktop.png);
+  mask: url(./media/mask.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  width: 700px;
 }
 
 .single_text h1 {
