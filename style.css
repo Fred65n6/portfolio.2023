@@ -679,6 +679,7 @@ h2 {
 
 .gif {
   mask: url(./media/mask.svg);
+  -webkit-mask-image: url(./media/mask.svg);
   mask-size: contain;
   mask-repeat: no-repeat;
 }
