@@ -280,8 +280,8 @@ header {
 /**********FUNKE************/
 
 #funke {
-  display: grid;
   place-content: center;
+  display: grid;
   margin: 0 auto;
   width: 600px;
   height: 47vh;
