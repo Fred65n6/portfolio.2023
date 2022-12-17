@@ -651,8 +651,8 @@ footer svg {
   justify-content: space-between;
   max-width: 80%;
   margin: 0 auto;
-  padding-bottom: 20px;
-  gap: 10px;
+  padding-bottom: 100px;
+  gap: 25px;
 }
 
 #top h1 {
@@ -661,7 +661,7 @@ footer svg {
 }
 
 #single {
-  padding-block: 90px;
+  padding-block: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -847,25 +847,25 @@ footer svg {
 
   #top {
     padding-top: 40px;
+    padding-bottom: 50px;
     display: grid;
     max-width: 90%;
-    padding-bottom: 80px;
     place-items: center;
     margin: 0 auto;
   }
 
   #single {
+    padding-bottom: 50px;
     padding-top: 40px;
     display: grid;
     place-items: center;
     margin: 0 auto;
     max-width: 90%;
-    padding-bottom: 80px;
   }
 
   #site_link {
-    margin-top: 20px;
-    margin-bottom: 130px;
+    margin-top: 40px;
+    margin-bottom: 120px;
   }
 
   #single h2 {
