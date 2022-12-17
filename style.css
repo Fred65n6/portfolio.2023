@@ -472,7 +472,7 @@ footer svg {
   color: white;
 }
 
-#site_link .knap:hover {
+/* #site_link .knap:hover {
   box-shadow: inset 360px 0 0 0 white;
   color: #902b2b;
 }
@@ -482,13 +482,14 @@ footer svg {
   border: solid 3px white;
 }
 
-#site_link .knap svg {
-  fill: white;
-  margin-left: 10px;
-}
+
 
 #site_link .knap:hover svg {
   fill: #902b2b;
+} */
+
+#site_link .knap svg {
+  margin-left: 10px;
 }
 
 .knap svg {
@@ -712,19 +713,25 @@ h2 {
 }
 
 #site_link {
-  background: url(./media/Rectangle.webp);
-  background-color: #902b2b;
   display: grid;
   place-content: center;
   margin: 0 auto;
-  padding-block: 100px;
-  margin-top: -30px;
-  margin-bottom: 110px;
+  margin-top: 75px;
+  margin-bottom: 170px;
 }
 
 #site_link .knap {
   width: auto;
   padding-inline: 30px;
+}
+
+.single_divider {
+  background-color: #902b2b;
+  width: 80%;
+  height: 1px;
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -737,11 +744,6 @@ h2 {
   }
   #top h1 {
     font-size: 2.5rem;
-  }
-
-  #site_link {
-    padding-block: 70px;
-    margin-top: -20px;
   }
 
   #top h2 {
@@ -788,6 +790,10 @@ h2 {
     padding-bottom: 80px;
   }
 
+  #site_link {
+    margin-top: 20px;
+    margin-bottom: 130px;
+  }
   #single h1 {
     font-size: 4rem;
   }
@@ -827,11 +833,6 @@ h2 {
   #single_headline {
     max-width: 90%;
     padding-top: 40px;
-  }
-
-  #site_link {
-    margin-top: -20px;
-    margin-bottom: 60px;
   }
 }
 
