@@ -1052,10 +1052,6 @@ footer svg {
   .carousel {
     width: 100vw;
     height: 80vh;
-    gap: 10px;
-  }
-
-  .carousel {
     gap: 0px;
   }
 
