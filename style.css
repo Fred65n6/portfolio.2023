@@ -52,6 +52,15 @@ h2 {
   font-family: "Almarai", sans-serif;
   font-size: 32px;
   font-weight: 600;
+  color: #902b2b;
+}
+
+#single h2 {
+  padding-bottom: 10px;
+}
+
+#top h2 {
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -626,22 +635,17 @@ footer svg {
   justify-content: space-between;
   max-width: 80%;
   margin: 0 auto;
-  gap: 50px;
 }
-
+/* 
 .scroll {
   display: grid;
   margin: 0 auto;
   place-items: center;
   border: none;
-}
+  display: none;
+} */
 
-.funke_single_gif {
-  max-width: 700px;
-  padding: 100px;
-}
-
-.scroll a {
+/* .scroll a {
   border: none;
   fill: #902b2b;
   -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
@@ -651,19 +655,21 @@ footer svg {
 .scroll a:hover {
   transform: scale(1.5);
   transition: ease 0.5s;
-}
-
-#single h1 {
-  padding-bottom: 20px;
-}
-
-h2 {
-  color: #902b2b;
-}
+} */
 
 #top img {
   width: auto;
   max-height: 450px;
+}
+
+#top h1 {
+  padding-bottom: 10px;
+  font-size: 3.2rem;
+}
+
+.funke_single_gif {
+  max-width: 700px;
+  padding: 100px;
 }
 
 .gif {
@@ -676,7 +682,7 @@ h2 {
 }
 
 #single img {
-  width: 700px;
+  width: 600px;
   max-height: auto;
 }
 
@@ -684,6 +690,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 450px;
 }
 
 #funke_single {
@@ -721,6 +728,8 @@ h2 {
   margin: 0 auto;
   align-items: center;
 }
+
+/*********SINGLE**************/
 
 @media (max-width: 1200px) {
   #top img {
@@ -763,11 +772,6 @@ h2 {
     margin: 0 auto;
   }
 
-  .scroll {
-    padding-bottom: 80px;
-    display: none;
-  }
-
   #single {
     padding-top: 40px;
     display: grid;
@@ -780,9 +784,6 @@ h2 {
   #site_link {
     margin-top: 20px;
     margin-bottom: 130px;
-  }
-  #single h1 {
-    font-size: 4rem;
   }
 
   #single h2 {
@@ -997,6 +998,10 @@ h2 {
     max-width: 90%;
     height: auto;
   }
+
+  /* .scroll {
+    display: none;
+  } */
 
   .mobil_grafik {
     display: block;
