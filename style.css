@@ -73,6 +73,10 @@ p {
   font-size: 1.1rem;
 }
 
+#single_desktop a {
+  font-size: 1.4rem;
+}
+
 header span {
   color: #902b2b;
   font-size: 4.4vw;
@@ -157,7 +161,7 @@ header {
 }
 
 #single_desktop img {
-  width: 75px;
+  width: 65px;
 }
 
 #single_desktop nav {
@@ -1061,9 +1065,10 @@ footer svg {
     padding: 12px 0;
   }
 
-  .nav li a {
+  #menu .nav li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
   }
 
   .nav li a:hover {
