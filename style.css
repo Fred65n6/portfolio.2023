@@ -956,7 +956,7 @@ h2 {
     background-color: #902b2b;
     width: 100%;
     height: 0.7px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
   }
 
@@ -985,6 +985,7 @@ h2 {
 
   .carousel-wrapper {
     width: 90%;
+    height: 80vh;
   }
 
   #mobile_nav {
@@ -1045,7 +1046,7 @@ h2 {
 
   .carousel {
     width: 100vw;
-    height: 450px;
+    height: 80vh;
     gap: 10px;
   }
 
@@ -1067,7 +1068,7 @@ h2 {
 
   #funke {
     width: 100%;
-    height: 450px;
+    height: 80vh;
     background-size: cover;
     background-position: right;
     background-image: url(./media/funke.drink.webp);
@@ -1082,7 +1083,7 @@ h2 {
   }
 
   #nb {
-    height: 450px;
+    height: 80vh;
     width: 90vw;
     display: grid;
     place-items: center;
@@ -1093,7 +1094,7 @@ h2 {
   }
 
   #m {
-    height: 450px;
+    height: 80vh;
     width: 90vw;
     background-position: center;
     background-size: cover;
