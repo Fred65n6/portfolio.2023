@@ -811,7 +811,6 @@ footer svg {
   }
   #single img {
     max-width: 100%;
-    margin-block: -30px;
   }
 
   #single .knap {
@@ -1062,10 +1061,6 @@ footer svg {
 
   #top img {
     padding-top: 20px;
-  }
-
-  #single img {
-    padding-bottom: 10px;
   }
 
   #top h1 {
