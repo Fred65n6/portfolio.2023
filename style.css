@@ -224,6 +224,8 @@ header {
   border-radius: 50%;
   position: absolute;
   z-index: 10;
+  right: 10%;
+  margin-right: 0px;
 }
 
 .arrows svg {
@@ -447,8 +449,7 @@ footer h2 {
 
 footer p {
   text-align: center;
-  padding-block: 20px;
-  margin-inline: 20px;
+  padding-bottom: 30px;
 }
 
 footer svg {
@@ -890,6 +891,9 @@ footer svg {
 }
 
 @media (max-width: 750px) {
+  .right-arrow {
+    margin-right: 0px;
+  }
   header {
     max-width: 90%;
   }
