@@ -73,20 +73,6 @@ p {
   font-size: 1.1rem;
 }
 
-@media (max-width: 950px) {
-  p {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  footer h2 {
-    font-size: 1.2rem;
-  }
-}
-
 #single_desktop a {
   font-size: 1.4rem;
 }
@@ -787,6 +773,14 @@ footer svg {
 }
 
 @media (max-width: 950px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
   header {
     max-width: 90%;
   }
