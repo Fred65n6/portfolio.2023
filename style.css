@@ -1032,6 +1032,7 @@ footer svg {
 
   #menu {
     z-index: 200;
+    margin-top: 30px;
   }
 
   #menu-bar {
@@ -1086,7 +1087,7 @@ footer svg {
 
   .menu-bg,
   #menu {
-    top: 5%;
+    top: 0%;
     right: 5%;
     position: absolute;
   }
