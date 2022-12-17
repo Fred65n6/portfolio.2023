@@ -718,7 +718,8 @@ h2 {
   place-content: center;
   margin: 0 auto;
   padding-block: 100px;
-  margin-block: 100px;
+  margin-top: -30px;
+  margin-bottom: 110px;
 }
 
 #site_link .knap {
