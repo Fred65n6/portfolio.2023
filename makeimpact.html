@@ -70,7 +70,7 @@
      <h1>Funke</h1>
   </section> -->
        
-    <section id="top" class="impact">
+    <section id="top">
       <div class="single_text">
             <div class="">
              <h1>make!mpact</h1>
@@ -91,7 +91,7 @@
     <section class="scroll"> <a href="#content"><svg width="50" height="50" viewBox="0 0 24 24"><path  d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg></a></section>
 
     <div id="content">
-     <section id="single">
+     <section id="single" class="container reveal">
           <div class="img">
             <img src="./media/old.app.webp" alt="">
         </div>
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-     <section id="single">
+     <section id="single" class="container reveal">
       <div class="single_text">
             <div class="">
              <h2>Keeping track</h2>
@@ -122,7 +122,7 @@
       </div>
     </section>
 
-       <section id="single">
+       <section id="single" class="container reveal">
           <div class="img">
             <img class="gif" src="./media/m!app.gif" alt="">
         </div>
@@ -184,149 +184,3 @@ The black and pink look gives the app a more fresh and interesting vibe, compare
     <script src="java.js"></script>
   </body>
 </html>
-
-<style>
-
-
-#top {
-    padding-top: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: 0 auto;
-    padding-bottom: 20px;
-
-}
-
-#single {
-    padding-block: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: 0 auto;
-   
-}
-
-.scroll {
-  display: grid;
-  margin: 0 auto;
-  place-items: center;
-  border:none;
-}
-
-.scroll a {
-  border: none;
-  fill: #902b2b;
-}
-
-.scroll a:hover {
-  transform: scale(1.5);
-  transition: ease 0.5s;
-}
-
-#single h1 {
-    padding-bottom: 20px;
-}
-
-h2 {
-   color: #902b2b;  
-}
-
-#top img {
-    width: auto;
-    max-height: 450px;
-}
-
-.gif {
-  mask: url(./media/mask.svg);
-  mask-size: contain;
-  mask-repeat: no-repeat;
-
-}
-
-#single img {
-    width: auto;
-    max-height: 450px;
-}
-
-    .single_text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-
-    .single_text p {
-        max-width: 450px;
-    }
-
-       .single_text h1 {
-      font-size: 3.5rem;
-    }
-
-    #single_headline {
-        max-width: 80%;
-        margin: 0 auto;
-        padding-top: 80px;
-    }
-
-    #site_link {
-        background: url(./media/Rectangle.webp);
-        background-color: #902b2b;
-        display: grid;
-        place-content: center;
-        margin: 0 auto;
-        padding-block: 100px;
-        margin-block: 100px;
-    }
-
-
-
-    @media (max-width: 950px) {
-        #single {
-            padding-top: 40px;
-            display: grid;
-            max-width: 90%;
-            padding-bottom: 80px;
-        }
-
-        #single h1 {
-            font-size: 4rem;
-        }
-
-        #single h2 {
-           font-size: 1.8rem;
-        }
-
-     
-      #single .img {
-    order: 1;
-  }
-
-   #single .single_text {
-    order: 2;
-  }
-
-
-    #single img {
-        max-width: 100%;
-        padding-block: 20px;
-    }
-
-    #single .knap {
-        margin-block: 20px;
-    }
-
-    #single_headline {
-        max-width: 90%;
-        padding-top: 40px;
-    }
-
-    #site_link {
-      margin-top: 0px;
-      margin-bottom: 60px;
-    }
-    }
-</style>
