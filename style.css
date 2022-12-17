@@ -809,8 +809,10 @@ footer svg {
   #top img {
     max-width: 100%;
   }
+
   #single img {
     max-width: 100%;
+    padding-bottom: 10px;
   }
 
   #single .knap {
