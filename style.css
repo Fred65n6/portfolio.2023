@@ -410,7 +410,7 @@ header {
 .reveal {
   position: relative;
   opacity: 0;
-  transition: ease-in 1.3s;
+  transition: ease-in 1s;
 }
 
 .reveal.active {
