@@ -1056,6 +1056,14 @@ h2 {
     gap: 0px;
   }
 
+  #single h1 {
+    font-size: 1.8rem;
+  }
+
+  #single h2 {
+    font-size: 1.5rem;
+  }
+
   .carousel-wrapper {
     padding-block: 15px;
   }
