@@ -861,6 +861,10 @@ h2 {
     padding-top: 30px;
   }
 
+  #forside_desktop {
+    padding-top: 30px;
+  }
+
   #forside_desktop_nav ul {
     gap: 10px;
   }
