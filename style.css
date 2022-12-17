@@ -891,8 +891,12 @@ footer svg {
 }
 
 @media (max-width: 750px) {
+  .left-arrow {
+    top: 50%;
+  }
   .right-arrow {
     margin-right: 0px;
+    top: 50%;
   }
   header {
     max-width: 90%;
