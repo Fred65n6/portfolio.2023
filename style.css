@@ -625,6 +625,11 @@ footer svg {
   gap: 50px;
 }
 
+#top h1 {
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+}
+
 #single {
   padding-block: 90px;
   display: flex;
@@ -697,10 +702,6 @@ h2 {
   width: 700px;
 }
 
-.single_text h1 {
-  font-size: 3.5rem;
-}
-
 #single_headline {
   max-width: 80%;
   margin: 0 auto;
@@ -730,6 +731,18 @@ h2 {
   #single img {
     max-width: 400px;
   }
+  #top h1 {
+    font-size: 2.5rem;
+  }
+
+  #top h2 {
+    font-size: 1.7rem;
+  }
+
+  #single h2 {
+    font-size: 1.7rem;
+    padding-top: 10px;
+  }
 
   #single .funke_single_gif {
     max-width: 250px;
@@ -754,6 +767,7 @@ h2 {
 
   .scroll {
     padding-bottom: 80px;
+    display: none;
   }
 
   #single {
@@ -891,6 +905,10 @@ h2 {
 @media (max-width: 950px) {
   h1 {
     font-size: 3rem;
+  }
+
+  #top h1 {
+    font-size: 2.5rem;
   }
 
   header {
