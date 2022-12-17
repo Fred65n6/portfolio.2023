@@ -80,7 +80,7 @@ a {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-#desktop a,
+#forside_desktop a,
 #single_desktop a {
   background-image: linear-gradient(to right, #902b2b, #902b2b 50%, #000 50%);
   background-size: 200% 100%;
@@ -93,7 +93,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-#desktop a::before,
+#forside_desktop a::before,
 #single_desktop a:before {
   content: "";
   background: #902b2b;
@@ -106,12 +106,12 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-#desktop a:hover,
+#forside_desktop a:hover,
 #single_desktop a:hover {
   background-position: 0;
 }
 
-#desktop a:hover::before,
+#forside_desktop a:hover::before,
 #single_desktop a:hover::before {
   width: 100%;
 }
@@ -120,25 +120,25 @@ a {
   box-shadow: none;
 }
 
-#desktop_nav ul {
+#forside_desktop nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: right;
 }
 
-#desktop_nav li,
+#forside_desktop nav li,
 #single_desktop li {
   list-style: none;
 }
 
-#desktop {
+#forside_desktop {
   padding-top: 50px;
 }
 
 header {
   max-width: 80%;
-  padding-top: 60px;
+  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -168,6 +168,11 @@ header {
   display: flex;
   gap: 20px;
 }
+
+#forside_desktop {
+  padding-top: 80px;
+}
+
 /******CAROUSEL**********/
 
 .carousel-wrapper {
