@@ -73,6 +73,16 @@ p {
   font-size: 1.1rem;
 }
 
+@media (max-width: 950px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 #single_desktop a {
   font-size: 1.4rem;
 }
@@ -1027,7 +1037,6 @@ footer svg {
   #menu-bar {
     width: 35px;
     height: 40px;
-    margin: 35px 0 20px 20px;
     cursor: pointer;
   }
 
@@ -1077,7 +1086,7 @@ footer svg {
 
   .menu-bg,
   #menu {
-    top: 0;
+    top: 5%;
     right: 5%;
     position: absolute;
   }
@@ -1109,7 +1118,7 @@ footer svg {
   }
 
   .change #bar3 {
-    transform: translateY(-6px) rotateZ(45deg);
+    transform: translateY(-4px) rotateZ(45deg);
   }
 
   .change-bg {
