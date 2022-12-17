@@ -1055,8 +1055,20 @@ h2 {
     gap: 0px;
   }
 
-  #single h1 {
-    font-size: 1.8rem;
+  #top img {
+    padding-top: 20px;
+  }
+
+  #single img {
+    padding-bottom: 10px;
+  }
+
+  #top h1 {
+    font-size: 2rem;
+  }
+
+  #top h2 {
+    font-size: 1.5rem;
   }
 
   #single h2 {
