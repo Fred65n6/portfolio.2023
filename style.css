@@ -1064,15 +1064,17 @@ h2 {
   }
 
   #top h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   #top h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
   }
 
   #single h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
   }
 
   .carousel-wrapper {
