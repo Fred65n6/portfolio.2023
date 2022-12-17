@@ -437,6 +437,10 @@ footer h2 {
   align-items: center;
 }
 
+.single_footer {
+  margin-top: 140px;
+}
+
 footer p {
   text-align: center;
   padding-block: 20px;
@@ -471,22 +475,6 @@ footer svg {
   box-shadow: inset 360px 0 0 0 #902b2b;
   color: white;
 }
-
-/* #site_link .knap:hover {
-  box-shadow: inset 360px 0 0 0 white;
-  color: #902b2b;
-}
-
-#site_link .knap {
-  color: white;
-  border: solid 3px white;
-}
-
-
-
-#site_link .knap:hover svg {
-  fill: #902b2b;
-} */
 
 #site_link .knap svg {
   margin-left: 10px;
@@ -716,8 +704,8 @@ h2 {
   display: grid;
   place-content: center;
   margin: 0 auto;
-  margin-top: 75px;
-  margin-bottom: 170px;
+  margin-top: 50px;
+  margin-bottom: 160px;
 }
 
 #site_link .knap {
