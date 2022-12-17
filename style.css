@@ -743,10 +743,6 @@ h2 {
     order: 2;
   }
 
-  .scroll {
-    display: none;
-  }
-
   #top img {
     max-width: 100%;
     padding-top: 40px;
