@@ -770,6 +770,10 @@ footer svg {
 }
 
 @media (max-width: 950px) {
+  #single {
+    gap: 0px;
+  }
+
   p {
     font-size: 1rem;
   }
