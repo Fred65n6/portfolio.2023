@@ -647,7 +647,7 @@ footer svg {
   justify-content: space-between;
   max-width: 80%;
   margin: 0 auto;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
   gap: 25px;
 }
 
@@ -685,6 +685,16 @@ footer svg {
   flex-direction: column;
   justify-content: space-between;
   max-width: 450px;
+}
+
+.scroll {
+  fill: #38383850;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  -webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
+  animation: pulsate-fwd 1s ease-in-out infinite both;
 }
 
 #funke_single {
@@ -784,6 +794,10 @@ footer svg {
 
   header {
     max-width: 90%;
+  }
+
+  .scroll {
+    display: none;
   }
 
   #top {
