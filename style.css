@@ -814,6 +814,7 @@ footer svg {
     place-items: center;
     margin: 0 auto;
     justify-content: center;
+    gap: 0px;
   }
 
   #content {
