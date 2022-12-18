@@ -738,6 +738,10 @@ footer svg {
     max-width: 400px;
   }
 
+  .scroll {
+    padding-bottom: 80px;
+  }
+
   #single img {
     max-width: 400px;
   }
