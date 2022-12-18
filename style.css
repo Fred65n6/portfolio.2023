@@ -806,7 +806,7 @@ footer svg {
   }
 
   #top {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 50px;
     display: grid;
     max-width: 90%;
@@ -840,6 +840,7 @@ footer svg {
   #top .img {
     order: 1;
     padding-bottom: 20px;
+    max-width: 100%;
   }
 
   #top .single_text {
@@ -852,10 +853,6 @@ footer svg {
 
   #single .single_text {
     order: 2;
-  }
-
-  #top img {
-    max-width: 100%;
   }
 
   #single img {
