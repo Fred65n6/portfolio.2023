@@ -770,10 +770,6 @@ footer svg {
 }
 
 @media (max-width: 950px) {
-  #single {
-    gap: 0px;
-  }
-
   p {
     font-size: 1rem;
   }
@@ -806,6 +802,7 @@ footer svg {
     place-items: center;
     margin: 0 auto;
     max-width: 90%;
+    gap: 0px;
   }
 
   #site_link {
