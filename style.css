@@ -793,6 +793,13 @@ footer svg {
     max-width: 90%;
     place-items: center;
     margin: 0 auto;
+    justify-content: center;
+  }
+
+  #content {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
   }
 
   #single {
@@ -832,7 +839,7 @@ footer svg {
 
   #single img {
     max-width: 100%;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   #single .knap {
