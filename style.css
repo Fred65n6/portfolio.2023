@@ -839,6 +839,7 @@ footer svg {
 
   #top .img {
     order: 1;
+    padding-bottom: 20px;
   }
 
   #top .single_text {
