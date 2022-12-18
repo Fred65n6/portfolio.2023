@@ -658,6 +658,7 @@ footer svg {
   justify-content: space-between;
   max-width: 80%;
   margin: 0 auto;
+  gap: 40px;
 }
 
 #top img {
@@ -775,6 +776,10 @@ footer svg {
 
   h2 {
     font-size: 1.3rem;
+  }
+
+  #top h1 {
+    font-size: 1.5rem;
   }
 
   header {
