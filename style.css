@@ -837,10 +837,13 @@ footer svg {
     margin-bottom: 120px;
   }
 
+  #top img {
+    max-width: 100%;
+  }
+
   #top .img {
     order: 1;
     padding-bottom: 20px;
-    max-width: 100%;
   }
 
   #top .single_text {
