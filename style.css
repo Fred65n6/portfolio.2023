@@ -738,7 +738,11 @@ footer svg {
   }
 
   #single_desktop a {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+  }
+
+  #single_desktop img {
+    max-width: 300px;
   }
 
   #top {
