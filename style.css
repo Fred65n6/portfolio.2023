@@ -737,6 +737,10 @@ footer svg {
     max-width: 400px;
   }
 
+  #single_desktop a {
+    font-size: 1.5vw;
+  }
+
   #top {
     padding-top: 120px;
     padding-bottom: 90px;
