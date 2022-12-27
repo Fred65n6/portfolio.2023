@@ -737,6 +737,7 @@ footer svg {
     max-width: 400px;
   }
 
+  /***SLET MÅSKE****/
   #single_desktop a {
     font-size: 1.8vw;
   }
@@ -744,6 +745,8 @@ footer svg {
   #single_desktop img {
     max-width: 55px;
   }
+
+  /***SLET MÅSKE****/
 
   #top {
     padding-top: 120px;
