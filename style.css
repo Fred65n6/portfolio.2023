@@ -93,7 +93,6 @@ a {
 
 #forside_desktop {
   padding-top: 5%;
-  max-width: 1215.35px;
 }
 
 #forside_desktop a,
@@ -187,7 +186,6 @@ header {
   gap: 0.5em;
   width: 80%;
   height: 100%;
-  max-width: 1215.35px;
 }
 
 .carousel {
